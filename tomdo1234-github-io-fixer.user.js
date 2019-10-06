@@ -60,7 +60,7 @@
             }
         }, 1000);
     };
-    document.getElementsByTagName('head')[0].appendChild(sc);
     const sc = document.createElement('script');
     sc.innerHTML = `(${ fix.toString() })()`;
+    document.getElementsByTagName('head')[0].appendChild(sc);
 })();
