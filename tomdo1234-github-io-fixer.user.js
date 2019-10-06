@@ -7,16 +7,6 @@
 // @match        https://tomdo1234.github.io/
 // @grant        none
 // ==/UserScript==
-
-// ==UserScript==
-// @name         TomDo1234.github.io Fixer
-// @namespace    de.idrinth
-// @version      1.0.0
-// @description  Fixing some issues with the idle rpg
-// @author       Idrinth
-// @match        https://tomdo1234.github.io/
-// @grant        none
-// ==/UserScript==
 (() => {
     const fix = () => {
         snake = new Foe("Generic Snake", 30, 5, 7, [playerbronze, 40, 1000], 3, 20, "", "genericsnake1.png");
